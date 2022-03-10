@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 3em;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.one {
+  min-height: 100%;
+  background-image: url(Tsla-img/Model-3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.two {
+  min-height: 100%;
+  background-image: url(Tsla-img/Model-y.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.three {
+  min-height: 100%;
+  background-image: url(Tsla-img/Model-s.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.four {
+  min-height: 100%;
+  background-image: url(Tsla-img/Model-x.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.five {
+  min-height: 100%;
+  background-image: url(Tsla-img/Solar-panels.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.six {
+  min-height: 100%;
+  background-image: url(Tsla-img/Solar-roof.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.seven {
+  min-height: 100%;
+  background-image: url(Tsla-img/Accessories.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .one {
+    background-image: url();
+  }
+} */
