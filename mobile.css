@@ -1,0 +1,23 @@
+@media only screen and (max-width: 880px) {
+    .one {
+      background-image: url(./Tsla-img/Model-3-mobile.jpeg);
+    }
+    .two {
+      background-image: url(./Tsla-img/Model-y-mobile.jpeg);
+    }
+    .three {
+      background-image: url(./Tsla-img/Model-s-mobile.jpeg);
+    }
+    .four {
+      background-image: url(./Tsla-img/Model-x-mobile.jpeg);
+    }
+    .five {
+      background-image: url(./Tsla-img/Solar-panels-mobile.jpeg);
+    }
+    .six {
+      background-image: url(./Tsla-img/Solar-roof-mobile.jpeg);
+    }
+    .seven {
+      background-image: url(./Tsla-img/Accessories-mobile.jpeg);
+    }
+  }
